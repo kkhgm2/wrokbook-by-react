@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/wrokbook-by-react/static/css/main.05fbf0b0.chunk.css",
+    "main.js": "/wrokbook-by-react/static/js/main.a0833dbe.chunk.js",
+    "main.js.map": "/wrokbook-by-react/static/js/main.a0833dbe.chunk.js.map",
+    "runtime-main.js": "/wrokbook-by-react/static/js/runtime-main.3f38c770.js",
+    "runtime-main.js.map": "/wrokbook-by-react/static/js/runtime-main.3f38c770.js.map",
+    "static/js/2.5fb2e118.chunk.js": "/wrokbook-by-react/static/js/2.5fb2e118.chunk.js",
+    "static/js/2.5fb2e118.chunk.js.map": "/wrokbook-by-react/static/js/2.5fb2e118.chunk.js.map",
+    "static/js/3.12d2cfb3.chunk.js": "/wrokbook-by-react/static/js/3.12d2cfb3.chunk.js",
+    "static/js/3.12d2cfb3.chunk.js.map": "/wrokbook-by-react/static/js/3.12d2cfb3.chunk.js.map",
+    "index.html": "/wrokbook-by-react/index.html",
+    "static/css/main.05fbf0b0.chunk.css.map": "/wrokbook-by-react/static/css/main.05fbf0b0.chunk.css.map",
+    "static/js/2.5fb2e118.chunk.js.LICENSE.txt": "/wrokbook-by-react/static/js/2.5fb2e118.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3f38c770.js",
+    "static/js/2.5fb2e118.chunk.js",
+    "static/css/main.05fbf0b0.chunk.css",
+    "static/js/main.a0833dbe.chunk.js"
+  ]
+}
