@@ -1,0 +1,32 @@
+{
+  "1":{
+    "quiz":"sample問題。ここに問題文を書きます！",
+    "option":[
+        {"label":"A", "text":"ここに選択肢を書きます。", "answer":"correct"},
+        {"label":"B", "text":"ここに選択肢を書きます。", "answer":"correct"},
+        {"label":"C", "text":"ここに選択肢を書きます。", "answer":"incorrect"},
+        {"label":"D", "text":"ここに選択肢を書きます。", "answer":"incorrect"},
+        {"label":"E", "text":"ここに選択肢を書きます。", "answer":"correct"}
+    ]
+  },
+  "2":{
+    "quiz":"sample問題。ここに問題文を書きます！",
+    "option":[
+        {"label":"A", "text":"ここに選択肢を書きます。", "answer":"correct"},
+        {"label":"B", "text":"ここに選択肢を書きます。", "answer":"correct"},
+        {"label":"C", "text":"ここに選択肢を書きます。", "answer":"incorrect"},
+        {"label":"D", "text":"ここに選択肢を書きます。", "answer":"incorrect"},
+        {"label":"E", "text":"ここに選択肢を書きます。", "answer":"correct"}
+    ]
+  },
+  "3":{
+    "quiz":"sample問題。ここに問題文を書きます！",
+    "option":[
+        {"label":"A", "text":"ここに選択肢を書きます。", "answer":"correct"},
+        {"label":"B", "text":"ここに選択肢を書きます。", "answer":"correct"},
+        {"label":"C", "text":"ここに選択肢を書きます。", "answer":"incorrect"},
+        {"label":"D", "text":"ここに選択肢を書きます。", "answer":"incorrect"},
+        {"label":"E", "text":"ここに選択肢を書きます。", "answer":"correct"}
+    ]
+  }
+}

@@ -1,12 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Parts from './Parts';
 import reportWebVitals from './reportWebVitals';
+import data from './data.json';
 
+
+console.log(data)
 ReactDOM.render(
+
   <React.StrictMode>
-    <App />
+    <Parts questions={data}/>
+
   </React.StrictMode>,
   document.getElementById('root')
 );
