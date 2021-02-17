@@ -65,6 +65,7 @@ class Parts extends React.Component {
         const element = document.querySelector('.answer-column');
         const div = element.querySelectorAll('div');
 
+        //チェックボックスの初期化
         for(let i = 0; i < div.length; i++){
             div[i].querySelectorAll('input')[0].checked = false ;
         }
@@ -72,8 +73,8 @@ class Parts extends React.Component {
 
     // 設定された正解数と、選択した正解すうが一致していれば、加点する
     check_the_answer(option) {
-        let correctResult = [];
-        let correctAmount = [];
+        let correctResult = 0;
+        let correctAmount = 0;
         const element = document.querySelector('.answer-column');
 
         for(let i = 0; i < option.length; i++){
@@ -81,14 +82,14 @@ class Parts extends React.Component {
             const isChecked = div.querySelectorAll('input')[0].checked;
             const isCorrect = div.querySelectorAll('label')[0].dataset.answer == "correct";
 
-            if(isCorrect) correctAmount.push(isCorrect);
-            if (isChecked && isCorrect)  correctResult.push(true);
+            if(isCorrect) correctAmount++ ;
+            if (isChecked && isCorrect)  correctResult++ ;
         }
 
         //選択した正解数の比較
         let addScore = 0;
         let result = false;
-        if(correctResult.length == correctAmount.length) {
+        if(correctResult == correctAmount ) {
             addScore = 1;
             result = true;
         }
